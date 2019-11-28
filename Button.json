@@ -3,8 +3,140 @@
 	"visualStyles": {
 		"actionButton": {
 			"*": {
-				"visualHeader": [{
+				"text": [
+				    {
+					"show": false
+				    },
+				    {
+					"$id": "default",
+					"text": "Button Text Preview",
+					"fontColor": {"solid":{"color":"#000000"}},
+					"padding": 14,
+					"verticalAlignment": "middle",
+					"horizontalAlignment": "right",
+					"fontSize": 10,
+					"fontFamily": "wf_segoe-ui_bold"
+				    },
+				    {
+					"$id": "hover",
+					"text": "Button Text Preview",
+					"fontColor": {"solid":{"color":"#000000"}},
+					"padding": 14,
+					"verticalAlignment": "middle",
+					"horizontalAlignment": "right",
+					"fontSize": 10,
+					"fontFamily": "wf_segoe-ui_bold"
+				    },
+				    {
+					"$id": "selected",
+					"text": "Button Text Preview",
+					"fontColor": {"solid":{"color":"#000000"}},
+					"padding": 14,
+					"verticalAlignment": "middle",
+					"horizontalAlignment": "right",
+					"fontSize": 10,
+					"fontFamily": "wf_segoe-ui_bold"
+				    }
+				],
+				"icon": [
+				    {
 					"show": true
+				    },
+				    {
+					"$id": "default",
+					"padding": 10,
+					"verticalAlignment": "middle",
+					"horizontalAlignment": "left",
+					"lineColor": {"solid":{"color":"#448AFF"}},
+					"lineTransparency": 0,
+					"lineWeight": 2
+				    },
+				    {
+					"$id": "hover",
+					"padding": 10,
+					"verticalAlignment": "middle",
+					"horizontalAlignment": "left",
+					"lineColor": {"solid":{"color":"#000000"}},
+					"lineTransparency": 0,
+					"lineWeight": 2
+				    },
+				    {
+					"$id": "selected",
+					"padding": 10,
+					"verticalAlignment": "middle",
+					"horizontalAlignment": "left",
+					"lineColor": {"solid":{"color":"#000000"}},
+					"lineTransparency": 0,
+					"lineWeight": 2
+				    }
+				],
+				"outline": [
+				    {
+					"show": false
+				    },
+				    {
+					"$id": "default",
+					"lineColor": {"solid":{"color":"#FFFFFF"}},
+					"transparency": 0,
+					"weight": 0,
+					"roundEdge": 20
+				    },
+				    {
+					"$id": "hover",
+					"lineColor": {"solid":{"color":"#00000"}},
+					"transparency": 0,
+					"weight": 2,
+					"roundEdge": 20
+				    },
+				    {
+					"$id": "selected",
+					"lineColor": {"solid":{"color":"#00000"}},
+					"transparency": 0,
+					"weight": 3,
+					"roundEdge": 20
+				    }
+				],
+				"fill": [
+				    {
+					"show": false
+				    },
+				    {
+					"$id": "default",
+					"fillColor": {"solid":{"color":"#FFFFFF"}},
+					"transparency": 0
+				    },
+				    {
+					"$id": "hover",
+					"fillColor": {"solid":{"color":"#45ff76"}},
+					"transparency": 70
+				    },
+				    {
+					"$id": "selected",
+					"fillColor": {"solid":{"color":"#45ff76"}},
+					"transparency": 30
+				    }
+				],
+				"title": [{
+					"show": true,
+					"text":"Title Text Preview",
+					"wordWrap": true,
+					"fontColor": {"solid":{"color":"#000000"}},
+					"background": {"solid":{"color":""}},
+					"fontSize": 10,
+					"fontFamily": "wf_segoe-ui_bold"
+				}],
+				"background": [{
+				    "show":false,
+				    "color": {"solid": {"color": "#FFFFFF"}},
+				    "transparency": 0
+				}],
+				"border": [{
+				    "show": false,
+				    "color": {"solid": {"color": "#FFFFFF" }},
+				    "radius": 5
+				}],
+				"visualHeader": [{
+				    "show": false
 				}]
 			}
 		}
